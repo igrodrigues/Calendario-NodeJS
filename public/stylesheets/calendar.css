@@ -1,0 +1,67 @@
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
+}
+.day:hover{
+    background-color: #28445f;
+    color: white;
+}
+.header-container{
+    width: 100%;
+    height: 70px;
+}
+.header-btn-l{
+    position: relative;
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+.header-btn-r{
+    position: relative;
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+.username{
+    position: relative;
+    float: left;
+}
+.events{
+    height: 100px;
+    overflow-y: scroll;
+}
+.curDay{
+    background-color: rgb(49, 100, 194);
+    color: white;
+}
+#description{
+    height: 100px;
+}
+.info-day{
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    font-size: smaller;
+}
+.event-list:hover{
+    background-color: #28445f;
+    color: white;
+}
+.selected-event{
+    background-color: #1e83e2;
+    color: white;
+}
