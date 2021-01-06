@@ -2,5 +2,5 @@ How to install and run the MongoDB for this application *assuming Docker is alre
 
 Docker Image: mongo:4.0.4
     > docker pull mongo:4.0.4
-Docker Container: 
+Docker Container:  
     > docker run -d -p 27017:27017 -v mongodata:/data/db --rm --name mongo-container mongo:4.0.4
