@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Calendário Tokenlab</title>
+        <title>Calendário</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="/stylesheets/calendar.css">
     </head>
@@ -10,12 +10,12 @@
         <div>
             <nav class="navbar navbar-light bg-light">
                 <div class="navbar-brand">
-                    <img src="/images/Tokenlab_Logo.png" width="50" height="50" class="d-inline-block align-top float-left">
-                    <span class="h1 align-middle">Calendário Tokenlab</span>
+                    <img src="/images/Calendar_Logo.png" width="50" height="50" class="d-inline-block align-top float-left">
+                    <span class="h1 align-middle">Calendário</span>
                 </div>
                 <form class="float-right align-middle" action="/" method="GET">
                     <h3 class="username align-middle">Olá, <%=user.username%></h3>
-                    <button id="sign-out" class="btn btn-sign-out btn-primary align-middle" type="submit">Sair</button>
+                    <button id="sign-out" class="btn btn-sign-out btn-success align-middle" type="submit">Sair</button>
                 </form>
             </nav>
         </div>
@@ -30,9 +30,9 @@
             </div>
         </div>
         <div id="header" class="header-container text-center navigation-frame clearfix">
-            <button id="prevMonth" type="button" class="header-btn-l btn btn-primary align-middle">&lt;&lt;</button>
+            <button id="prevMonth" type="button" class="header-btn-l btn btn-success align-middle">&lt;&lt;</button>
             <span id="curMonth" class="display-4 mb-4 text-center h4 align-middle">Setembro de 2020</span>
-            <button id="nextMonth" class="header-btn-r btn btn-primary align-middle">&gt;&gt;</button>
+            <button id="nextMonth" class="header-btn-r btn btn-success align-middle">&gt;&gt;</button>
         </div>
         <div id="calendar" class="container-fluid">
             <header>
@@ -279,7 +279,7 @@
         </div>
         <div id="events" class="container d-none">
             <div class="text-center">
-                <button id="addEvent" class="btn btn-primary">Adicionar Evento</button>
+                <button id="addEvent" class="btn btn-success">Adicionar Evento</button>
                 <button id="editEvent" class="btn btn-info">Editar Evento</button>
                 <button id="removeEvent" class="btn btn-warning">Excluir Evento</button>
             </div>

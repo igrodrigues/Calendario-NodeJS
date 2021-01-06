@@ -18,7 +18,7 @@
     }
 }
 .day:hover{
-    background-color: #28445f;
+    background-color: #0a3d21;
     color: white;
 }
 .header-container{
@@ -46,7 +46,7 @@
     overflow-y: scroll;
 }
 .curDay{
-    background-color: rgb(49, 100, 194);
+    background-color: #14ac53;
     color: white;
 }
 #description{
@@ -58,10 +58,10 @@
     font-size: smaller;
 }
 .event-list:hover{
-    background-color: #28445f;
+    background-color: #144925;
     color: white;
 }
 .selected-event{
-    background-color: #1e83e2;
+    background-color: #14ac53;
     color: white;
 }
